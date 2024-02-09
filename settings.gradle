@@ -12,6 +12,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "FragmentTry"
+rootProject.name = "ClarenceLab5"
 include ':ClarenceLab5'
 
