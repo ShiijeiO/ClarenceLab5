@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="90px"
-        android:text="Hello"
+        android:text="@string/helloTV"
         android:textColor="#ffff00"
         android:layout_gravity="center"
         android:id="@+id/clarenceConcepts"/>
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textColor="#ffffff"
-        android:text="Hello1"
+        android:text="@string/hello1TV"
         android:textSize="70px"
         android:id="@+id/clarenceDefinition"/>
 

@@ -78,7 +78,7 @@ public class ListFragmentOriola extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        Toast.makeText(getActivity(), "Test toast", Toast.LENGTH_LONG).show();
+        Toast.makeText(getActivity(), getString(R.string.test_toast), Toast.LENGTH_LONG).show();
     }
 
 }
