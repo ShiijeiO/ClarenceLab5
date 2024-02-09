@@ -57,7 +57,7 @@ public class ListFragmentOriola extends Fragment {
 
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_list, container, false);
-        listView = view.findViewById(R.id.listView1);
+        listView = view.findViewById(R.id.clarenceListView1);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, concepts);

@@ -7,7 +7,7 @@
     tools:context=".ClarenceActivity5">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
+        android:id="@+id/clarenceFragmentContainerView"
         android:name="com.example.fragmenttry.ListFragmentOriola"
         android:layout_width="179dp"
         android:layout_height="679dp"
@@ -18,7 +18,7 @@
         tools:layout="@layout/fragment_list" />
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView2"
+        android:id="@+id/clarenceFragmentContainerView2"
         android:name="com.example.fragmenttry.DefinitionFragmentClarence"
         android:layout_width="188dp"
         android:layout_height="679dp"
