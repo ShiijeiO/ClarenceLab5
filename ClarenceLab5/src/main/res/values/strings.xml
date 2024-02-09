@@ -7,4 +7,30 @@
     <string name="helloTV">Hello</string>
     <string name="hello1TV">Hello1</string>
     <string name="test_toast">Test toast</string>
+
+    <string-array name="concepts_array">
+        <item>Android</item>
+        <item>ART</item>
+        <item>AVD</item>
+        <item>Intent</item>
+        <item>AOT</item>
+        <item>Emulator</item>
+        <item>Activity</item>
+        <item>Fragment</item>
+        <item>Life Cycle events</item>
+    </string-array>
+
+    <string-array name="definition_array">
+        <item>Open source software stack</item>
+        <item>Android Runtime Environment</item>
+        <item>Android Virtual Device</item>
+        <item>An abstract description of an operation to be performed</item>
+        <item>Ahead of Time compilation</item>
+        <item>Simulates Android devices on your computer</item>
+        <item>Application component that provides a screen</item>
+        <item>A mini activity</item>
+        <item>These methods are called when .....</item>
+    </string-array>
+
+
 </resources>

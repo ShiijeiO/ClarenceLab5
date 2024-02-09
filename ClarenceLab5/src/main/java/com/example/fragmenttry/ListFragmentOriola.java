@@ -21,28 +21,29 @@ public class ListFragmentOriola extends Fragment {
 
     private ListView listView;
 
-    String[] concepts = new String[]
-            {
-                    "Android",
-                    "ART",
-                    "AVD",
-                    "Intent",
-                    "AOT",
-                    "Emulator",
-                    "Activity",
-                    "Fragment",
-                    "Life Cycle events" };
-    //
-    String[] definition = new String[]
-            {"Open source software stack",
-                    "Android Runtime Environment",
-                    "Android Virtual Device",
-                    "An abstract description of an operation to be performed",
-                    "Ahead of Time compilation",
-                    "Simulates Android devices on your computer",
-                    "Application component that provides a screen",
-                    "A mini activity",
-                    "These methods are called when ....."};
+
+//    String[] concepts = new String[]
+//            {
+//                    "Android",
+//                    "ART",
+//                    "AVD",
+//                    "Intent",
+//                    "AOT",
+//                    "Emulator",
+//                    "Activity",
+//                    "Fragment",
+//                    "Life Cycle events" };
+//    //
+//    String[] definition = new String[]
+//            {"Open source software stack",
+//                    "Android Runtime Environment",
+//                    "Android Virtual Device",
+//                    "An abstract description of an operation to be performed",
+//                    "Ahead of Time compilation",
+//                    "Simulates Android devices on your computer",
+//                    "Application component that provides a screen",
+//                    "A mini activity",
+//                    "These methods are called when ....."};
 
 
 
@@ -54,6 +55,8 @@ public class ListFragmentOriola extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        String[] concepts = getResources().getStringArray(R.array.concepts_array);
+        String[] definition = getResources().getStringArray(R.array.definition_array);
 
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_list, container, false);
