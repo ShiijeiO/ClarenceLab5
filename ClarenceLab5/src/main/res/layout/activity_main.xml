@@ -19,7 +19,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView2"
-        android:name="com.example.fragmenttry.DefinitionFragment"
+        android:name="com.example.fragmenttry.DefinitionFragmentClarence"
         android:layout_width="188dp"
         android:layout_height="679dp"
         android:layout_marginStart="208dp"
