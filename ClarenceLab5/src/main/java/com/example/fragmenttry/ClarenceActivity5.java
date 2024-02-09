@@ -25,9 +25,7 @@ public class ClarenceActivity5 extends AppCompatActivity {
         builder.setMessage(R.string.onBackPressed_message);
 
         //yes button condition
-        builder.setPositiveButton(R.string.onBackPressed_yes, (dialog, which) -> {
-            finish();
-        });
+        builder.setPositiveButton(R.string.onBackPressed_yes, (dialog, which) -> finish());
 
         // no button condition
         builder.setNegativeButton(R.string.onBackPressed_no, (dialog, which) -> {
