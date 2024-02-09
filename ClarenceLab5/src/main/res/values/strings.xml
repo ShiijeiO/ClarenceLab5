@@ -36,6 +36,7 @@
         <item>A mini activity</item>
         <item>These methods are called when .....</item>
     </string-array>
+    <string name="my_name">Clarence Oriola</string>
 
 
 </resources>
