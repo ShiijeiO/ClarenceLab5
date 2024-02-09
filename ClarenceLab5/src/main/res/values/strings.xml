@@ -8,6 +8,10 @@
     <string name="helloTV">Hello</string>
     <string name="hello1TV">Hello1</string>
     <string name="test_toast">Test toast</string>
+    <string name="project_name">ClarenceLab5</string>
+    <string name="onBackPressed_message">Do you want to exit the app?</string>
+    <string name="onBackPressed_yes">Yes</string>
+    <string name="onBackPressed_no">No</string>
 
     <string-array name="concepts_array">
         <item>Android</item>
