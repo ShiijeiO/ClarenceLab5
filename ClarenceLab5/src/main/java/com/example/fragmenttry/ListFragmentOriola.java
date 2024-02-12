@@ -55,12 +55,14 @@ public class ListFragmentOriola extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         String[] concepts = getResources().getStringArray(R.array.concepts_array);
         String[] definition = getResources().getStringArray(R.array.definition_array);
 
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_list, container, false);
         listView = view.findViewById(R.id.clarenceListView1);
+
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(),
                 android.R.layout.simple_list_item_1, concepts);
@@ -71,7 +73,20 @@ public class ListFragmentOriola extends Fragment {
         {
             @Override public void onItemClick(AdapterView<?> arg0, View arg1,int position, long arg3)
             {
-                  listView.setSelector(android.R.color.holo_blue_dark);
+                listView.setSelector(android.R.color.holo_blue_dark);
+
+                DefinitionFragmentClarence fragment = new DefinitionFragmentClarence();
+
+                Bundle bundle = new Bundle();
+                bundle.putString("concept_array", concepts[position]);
+                bundle.putString("definition_array", definition[position]);
+                bundle.putInt("index", position);
+                fragment.setArguments(bundle);
+                getActivity().getSupportFragmentManager().beginTransaction()
+                                .replace(R.id.clarenceFragmentContainerView2, fragment)
+                                .addToBackStack(null)
+                                .commit();
+
             }
         });
 

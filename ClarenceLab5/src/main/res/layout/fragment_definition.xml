@@ -8,20 +8,21 @@
     >
 
     <TextView
+        android:id="@+id/clarenceConcepts"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="90px"
-        android:text="@string/helloTV"
-        android:textColor="#ffff00"
         android:layout_gravity="center"
-        android:id="@+id/clarenceConcepts"/>
+        android:text="@string/conceptTV"
+        android:textColor="#ffff00"
+        android:textSize="90px" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:textColor="#ffffff"
-        android:text="@string/hello1TV"
+        android:text="@string/definitionTV"
         android:textSize="70px"
-        android:id="@+id/clarenceDefinition"/>
+        android:id="@+id/clarenceDefinitions"/>
 
 </LinearLayout>
