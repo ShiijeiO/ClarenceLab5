@@ -37,6 +37,11 @@
         <item>These methods are called when .....</item>
     </string-array>
     <string name="my_name">Clarence Oriola</string>
+    <string name="title_activity_oriola2">OriolaActivity2</string>
+    <string name="action">ACTION</string>
+    <string name="help">Help</string>
+    <string name="dial">Dial</string>
+    <string name="camera">Camera</string>
 
 
 </resources>

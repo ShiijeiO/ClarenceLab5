@@ -1,12 +1,17 @@
 //Clarence Oriola N01573843
 package com.example.fragmenttry;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ClarenceActivity5 extends AppCompatActivity {
+
+    private static final int REQUEST_CODE_ASK_PERMISSIONS = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,4 +42,25 @@ public class ClarenceActivity5 extends AppCompatActivity {
         AlertDialog dialog = builder.create();
         dialog.show();
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+
+        if(id == R.id.menu_help) {
+            Intent intent = new Intent(this, OriolaActivity2.class);
+            startActivity(intent);
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+
 }

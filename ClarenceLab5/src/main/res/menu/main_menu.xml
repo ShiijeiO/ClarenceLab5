@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@android:drawable/ic_menu_help"
+        android:title="@string/help"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_action"
+        android:title="@string/action"
+        app:showAsAction="always">
+
+    <menu>
+        <item
+            android:id="@+id/menu_dial"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="@string/dial"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/menu_camera"
+            android:icon="@android:drawable/ic_menu_camera"
+            android:title="@string/camera"
+            app:showAsAction="always" />
+
+
+    </menu>
+    </item>
+
+</menu>

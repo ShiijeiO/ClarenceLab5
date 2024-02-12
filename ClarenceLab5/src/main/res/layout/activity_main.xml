@@ -7,6 +7,17 @@
     tools:context=".ClarenceActivity5">
 
     <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/clarenceFragmentContainerView2"
+        android:name="com.example.fragmenttry.DefinitionFragmentClarence"
+        android:layout_width="188dp"
+        android:layout_height="679dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout="@layout/fragment_definition" />
+
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/clarenceFragmentContainerView"
         android:name="com.example.fragmenttry.ListFragmentOriola"
         android:layout_width="179dp"
@@ -17,16 +28,16 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout="@layout/fragment_list" />
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/clarenceFragmentContainerView2"
-        android:name="com.example.fragmenttry.DefinitionFragmentClarence"
-        android:layout_width="188dp"
-        android:layout_height="679dp"
-        android:layout_marginStart="208dp"
-        android:layout_marginTop="28dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout="@layout/fragment_definition" />
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:layout_width="409dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="?attr/colorPrimary"-->
+<!--        android:minHeight="?attr/actionBarSize"-->
+<!--        android:theme="?attr/actionBarTheme"-->
+<!--        tools:layout_editor_absoluteX="1dp"-->
+<!--        tools:layout_editor_absoluteY="1dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
 
     <TextView
         android:id="@+id/textView2"
@@ -38,10 +49,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
+        app:layout_constraintVertical_bias="0.001" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
