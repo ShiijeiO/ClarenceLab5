@@ -36,7 +36,7 @@ public class ClarenceActivity5 extends AppCompatActivity {
         builder.setNegativeButton(R.string.onBackPressed_no, (dialog, which) -> {
             dialog.dismiss(); //dismisses alertDialog
         });
-
+//comment
         builder.setCancelable(false); //user cannot dismiss
 
         AlertDialog dialog = builder.create();
