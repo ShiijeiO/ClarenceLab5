@@ -37,6 +37,7 @@ public class ClarenceActivity5 extends AppCompatActivity {
             dialog.dismiss(); //dismisses alertDialog
         });
 //comment
+        //comment
         builder.setCancelable(false); //user cannot dismiss
 
         AlertDialog dialog = builder.create();
